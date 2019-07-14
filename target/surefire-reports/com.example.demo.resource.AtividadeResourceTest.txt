@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.resource.AtividadeResourceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.876 s <<< FAILURE! - in com.example.demo.resource.AtividadeResourceTest
+testaId(com.example.demo.resource.AtividadeResourceTest)  Time elapsed: 0.561 s  <<< FAILURE!
+java.lang.AssertionError: 
+JSON path "nome"
+Expected: is "Visita Técnica GDG 2018"
+     but: was "Visita Tecnica GDG 2016"
+	at com.example.demo.resource.AtividadeResourceTest.testaId(AtividadeResourceTest.java:40)
+

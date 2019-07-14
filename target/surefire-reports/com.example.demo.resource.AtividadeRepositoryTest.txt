@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.resource.AtividadeRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.317 s <<< FAILURE! - in com.example.demo.resource.AtividadeRepositoryTest
+findByNome(com.example.demo.resource.AtividadeRepositoryTest)  Time elapsed: 2.1 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1]> but was:<[4]>
+	at com.example.demo.resource.AtividadeRepositoryTest.findByNome(AtividadeRepositoryTest.java:32)
+
